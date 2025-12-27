@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+    <section class="container">
+       <header><h2>SignUp</h2></header>
+
+       <main id="signup-body">
+        <form action="#" id="signupForm">
+            <p id="list">
+            <label for="name">Full name</label>
+            <input type="text" placeholder="type name here" id="name">
+            <i class="fa-solid"></i>
+            <span id="nameText"></span>
+            </p>
+
+            <p id="list">
+            <label for="email">Email</label>
+            <input type="email" placeholder="xyz@gmail.com" id="email">
+            <i class="fa-solid"></i>
+            <span id="emailText"></span>
+            </p>
+
+            <p id="list">
+            <label for="password">Password</label>
+            <input type="password" placeholder="minimum 8 characters" id="password">
+            <i class="fa-solid"></i>
+            <span id="passText"></span>
+            </p>
+
+            <p id="list">
+            <label for="conPass">Confirm Password</label>
+            <input type="password" placeholder="minimum 8 characters" id="conPass">
+            <i class="fa-solid"></i>
+            <span id="conPassText"></span>
+            </p>
+            
+            <p id="list" class="in" >
+            <input type="submit" id="btn" value="Create Account">
+            </p>
+        </form>
+       </main>
+       <footer>Already have an account? <a href="#">Login</a></footer>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
